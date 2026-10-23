@@ -1,0 +1,61 @@
+{
+  "checkpoint": "models/species_resnet18_robust_best.pt",
+  "variants": {
+    "clean": {
+      "top1_accuracy": 0.9024390243902439,
+      "top3_accuracy": 0.9473170731707317,
+      "correct": 925,
+      "top3_correct": 971,
+      "n": 1025
+    },
+    "low_resolution": {
+      "top1_accuracy": 0.007804878048780488,
+      "top3_accuracy": 0.02926829268292683,
+      "correct": 8,
+      "top3_correct": 30,
+      "n": 1025
+    },
+    "grayscale": {
+      "top1_accuracy": 0.7151219512195122,
+      "top3_accuracy": 0.8497560975609756,
+      "correct": 733,
+      "top3_correct": 871,
+      "n": 1025
+    },
+    "dark": {
+      "top1_accuracy": 0.8839024390243903,
+      "top3_accuracy": 0.9473170731707317,
+      "correct": 906,
+      "top3_correct": 971,
+      "n": 1025
+    },
+    "bright": {
+      "top1_accuracy": 0.775609756097561,
+      "top3_accuracy": 0.88,
+      "correct": 795,
+      "top3_correct": 902,
+      "n": 1025
+    },
+    "flip": {
+      "top1_accuracy": 0.8995121951219512,
+      "top3_accuracy": 0.953170731707317,
+      "correct": 922,
+      "top3_correct": 977,
+      "n": 1025
+    },
+    "crop": {
+      "top1_accuracy": 0.5521951219512196,
+      "top3_accuracy": 0.7580487804878049,
+      "correct": 566,
+      "top3_correct": 777,
+      "n": 1025
+    },
+    "occluded": {
+      "top1_accuracy": 0.49658536585365853,
+      "top3_accuracy": 0.7492682926829268,
+      "correct": 509,
+      "top3_correct": 768,
+      "n": 1025
+    }
+  }
+}

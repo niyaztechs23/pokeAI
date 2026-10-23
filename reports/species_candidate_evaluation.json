@@ -1,0 +1,1336 @@
+{
+  "checkpoint": "models/species_resnet18_robust_best.pt",
+  "epoch": 4,
+  "validation_group": "official.png from each raw species folder",
+  "n": 1025,
+  "top1_correct": 925,
+  "top3_correct": 971,
+  "top5_correct": 986,
+  "top1_accuracy": 0.9024390243902439,
+  "top3_accuracy": 0.9473170731707317,
+  "top5_accuracy": 0.9619512195121951,
+  "elapsed_seconds": 35.13032703799945,
+  "weak_classes": [
+    {
+      "true_label": "Dachsbun",
+      "top1_label": "Groudon",
+      "top1_score": 0.6982437372207642,
+      "true_score": 0.07011827826499939,
+      "top1_correct": false,
+      "top3_correct": true,
+      "top5_correct": true
+    },
+    {
+      "true_label": "Staryu",
+      "top1_label": "Starmie",
+      "top1_score": 0.4008505046367645,
+      "true_score": 0.3109113276004791,
+      "top1_correct": false,
+      "top3_correct": true,
+      "top5_correct": true
+    },
+    {
+      "true_label": "Krabby",
+      "top1_label": "Kingler",
+      "top1_score": 0.39481663703918457,
+      "true_score": 0.004690553527325392,
+      "top1_correct": false,
+      "top3_correct": false,
+      "top5_correct": false
+    },
+    {
+      "true_label": "Hydreigon",
+      "top1_label": "Anorith",
+      "top1_score": 0.38575971126556396,
+      "true_score": 0.05792366713285446,
+      "top1_correct": false,
+      "top3_correct": false,
+      "top5_correct": true
+    },
+    {
+      "true_label": "Qwilfish",
+      "top1_label": "Gengar",
+      "top1_score": 0.36697107553482056,
+      "true_score": 0.35258767008781433,
+      "top1_correct": false,
+      "top3_correct": true,
+      "top5_correct": true
+    },
+    {
+      "true_label": "Drampa",
+      "top1_label": "Skorupi",
+      "top1_score": 0.3584131896495819,
+      "true_score": 0.17889931797981262,
+      "top1_correct": false,
+      "top3_correct": true,
+      "top5_correct": true
+    },
+    {
+      "true_label": "Rolycoly",
+      "top1_label": "Minior",
+      "top1_score": 0.3401322364807129,
+      "true_score": 0.018804023042321205,
+      "top1_correct": false,
+      "top3_correct": false,
+      "top5_correct": true
+    },
+    {
+      "true_label": "Gossifleur",
+      "top1_label": "Sunflora",
+      "top1_score": 0.3141651749610901,
+      "true_score": 0.19476789236068726,
+      "top1_correct": false,
+      "top3_correct": true,
+      "top5_correct": true
+    },
+    {
+      "true_label": "Pincurchin",
+      "top1_label": "Venipede",
+      "top1_score": 0.29312458634376526,
+      "true_score": 0.012787913903594017,
+      "top1_correct": false,
+      "top3_correct": false,
+      "top5_correct": false
+    },
+    {
+      "true_label": "Bibarel",
+      "top1_label": "Diglett",
+      "top1_score": 0.28922536969184875,
+      "true_score": 0.057585056871175766,
+      "top1_correct": false,
+      "top3_correct": true,
+      "top5_correct": true
+    },
+    {
+      "true_label": "Tinkatuff",
+      "top1_label": "Groudon",
+      "top1_score": 0.28878486156463623,
+      "true_score": 0.0496009960770607,
+      "top1_correct": false,
+      "top3_correct": false,
+      "top5_correct": true
+    },
+    {
+      "true_label": "Drizzile",
+      "top1_label": "Glaceon",
+      "top1_score": 0.2886700928211212,
+      "true_score": 0.002850668039172888,
+      "top1_correct": false,
+      "top3_correct": false,
+      "top5_correct": false
+    },
+    {
+      "true_label": "Scorbunny",
+      "top1_label": "Cinderace",
+      "top1_score": 0.2583087086677551,
+      "true_score": 0.08977846056222916,
+      "top1_correct": false,
+      "top3_correct": true,
+      "top5_correct": true
+    },
+    {
+      "true_label": "Pineco",
+      "top1_label": "Starmie",
+      "top1_score": 0.2555404007434845,
+      "true_score": 0.007279376965016127,
+      "top1_correct": false,
+      "top3_correct": false,
+      "top5_correct": false
+    },
+    {
+      "true_label": "Combusken",
+      "top1_label": "Squawkabilly",
+      "top1_score": 0.24975618720054626,
+      "true_score": 0.021070335060358047,
+      "top1_correct": false,
+      "top3_correct": false,
+      "top5_correct": false
+    },
+    {
+      "true_label": "Relicanth",
+      "top1_label": "Steelix",
+      "top1_score": 0.24216526746749878,
+      "true_score": 0.2348220944404602,
+      "top1_correct": false,
+      "top3_correct": true,
+      "top5_correct": true
+    },
+    {
+      "true_label": "Numel",
+      "top1_label": "Exeggcute",
+      "top1_score": 0.24191857874393463,
+      "true_score": 0.07282350212335587,
+      "top1_correct": false,
+      "top3_correct": true,
+      "top5_correct": true
+    },
+    {
+      "true_label": "Beldum",
+      "top1_label": "Metang",
+      "top1_score": 0.23268647491931915,
+      "true_score": 0.012912924401462078,
+      "top1_correct": false,
+      "top3_correct": false,
+      "top5_correct": false
+    },
+    {
+      "true_label": "Torchic",
+      "top1_label": "Uxie",
+      "top1_score": 0.23145952820777893,
+      "true_score": 0.005209682043641806,
+      "top1_correct": false,
+      "top3_correct": false,
+      "top5_correct": false
+    },
+    {
+      "true_label": "Dondozo",
+      "top1_label": "Metang",
+      "top1_score": 0.22698749601840973,
+      "true_score": 0.07128596305847168,
+      "top1_correct": false,
+      "top3_correct": true,
+      "top5_correct": true
+    },
+    {
+      "true_label": "Grotle",
+      "top1_label": "Shaymin",
+      "top1_score": 0.22047396004199982,
+      "true_score": 0.05917474627494812,
+      "top1_correct": false,
+      "top3_correct": false,
+      "top5_correct": true
+    },
+    {
+      "true_label": "Carkol",
+      "top1_label": "Diglett",
+      "top1_score": 0.21620850265026093,
+      "true_score": 0.008976981043815613,
+      "top1_correct": false,
+      "top3_correct": false,
+      "top5_correct": false
+    },
+    {
+      "true_label": "Cubone",
+      "top1_label": "Diglett",
+      "top1_score": 0.20285393297672272,
+      "true_score": 0.013061951845884323,
+      "top1_correct": false,
+      "top3_correct": false,
+      "top5_correct": false
+    },
+    {
+      "true_label": "Infernape",
+      "top1_label": "Diglett",
+      "top1_score": 0.2011607587337494,
+      "true_score": 0.1971210092306137,
+      "top1_correct": false,
+      "top3_correct": true,
+      "top5_correct": true
+    },
+    {
+      "true_label": "Carbink",
+      "top1_label": "Diglett",
+      "top1_score": 0.20114758610725403,
+      "true_score": 0.01943073235452175,
+      "top1_correct": false,
+      "top3_correct": false,
+      "top5_correct": false
+    },
+    {
+      "true_label": "Rhyhorn",
+      "top1_label": "Exploud",
+      "top1_score": 0.19410200417041779,
+      "true_score": 0.044177114963531494,
+      "top1_correct": false,
+      "top3_correct": true,
+      "top5_correct": true
+    },
+    {
+      "true_label": "Rillaboom",
+      "top1_label": "Scovillain",
+      "top1_score": 0.1858111470937729,
+      "true_score": 0.17639301717281342,
+      "top1_correct": false,
+      "top3_correct": true,
+      "top5_correct": true
+    },
+    {
+      "true_label": "Mudkip",
+      "top1_label": "Elekid",
+      "top1_score": 0.17380724847316742,
+      "true_score": 0.16124072670936584,
+      "top1_correct": false,
+      "top3_correct": true,
+      "top5_correct": true
+    },
+    {
+      "true_label": "Keldeo",
+      "top1_label": "Diglett",
+      "top1_score": 0.17217087745666504,
+      "true_score": 0.04095907509326935,
+      "top1_correct": false,
+      "top3_correct": false,
+      "top5_correct": true
+    },
+    {
+      "true_label": "Dragalge",
+      "top1_label": "Dracozolt",
+      "top1_score": 0.16669093072414398,
+      "true_score": 0.019462095573544502,
+      "top1_correct": false,
+      "top3_correct": false,
+      "top5_correct": false
+    },
+    {
+      "true_label": "Miltank",
+      "top1_label": "Diglett",
+      "top1_score": 0.1630261093378067,
+      "true_score": 0.0041740331798791885,
+      "top1_correct": false,
+      "top3_correct": false,
+      "top5_correct": false
+    },
+    {
+      "true_label": "Rockruff",
+      "top1_label": "Meloetta",
+      "top1_score": 0.16232319176197052,
+      "true_score": 0.003844328224658966,
+      "top1_correct": false,
+      "top3_correct": false,
+      "top5_correct": false
+    },
+    {
+      "true_label": "Quagsire",
+      "top1_label": "Wobbuffet",
+      "top1_score": 0.16149389743804932,
+      "true_score": 0.040445730090141296,
+      "top1_correct": false,
+      "top3_correct": false,
+      "top5_correct": true
+    },
+    {
+      "true_label": "Drilbur",
+      "top1_label": "Diglett",
+      "top1_score": 0.15943823754787445,
+      "true_score": 0.008968576788902283,
+      "top1_correct": false,
+      "top3_correct": false,
+      "top5_correct": false
+    },
+    {
+      "true_label": "Obstagoon",
+      "top1_label": "Lokix",
+      "top1_score": 0.15540245175361633,
+      "true_score": 0.08553687483072281,
+      "top1_correct": false,
+      "top3_correct": true,
+      "top5_correct": true
+    },
+    {
+      "true_label": "Paras",
+      "top1_label": "Diglett",
+      "top1_score": 0.155231773853302,
+      "true_score": 0.14159998297691345,
+      "top1_correct": false,
+      "top3_correct": true,
+      "top5_correct": true
+    },
+    {
+      "true_label": "Krokorok",
+      "top1_label": "Diglett",
+      "top1_score": 0.15258726477622986,
+      "true_score": 0.0032207455951720476,
+      "top1_correct": false,
+      "top3_correct": false,
+      "top5_correct": false
+    },
+    {
+      "true_label": "Naganadel",
+      "top1_label": "Kyogre",
+      "top1_score": 0.15100476145744324,
+      "true_score": 0.12523260712623596,
+      "top1_correct": false,
+      "top3_correct": true,
+      "top5_correct": true
+    },
+    {
+      "true_label": "Yanma",
+      "top1_label": "Diglett",
+      "top1_score": 0.14791738986968994,
+      "true_score": 0.12318070232868195,
+      "top1_correct": false,
+      "top3_correct": true,
+      "top5_correct": true
+    },
+    {
+      "true_label": "Slurpuff",
+      "top1_label": "Diglett",
+      "top1_score": 0.14591696858406067,
+      "true_score": 0.006605388596653938,
+      "top1_correct": false,
+      "top3_correct": false,
+      "top5_correct": false
+    },
+    {
+      "true_label": "Kangaskhan",
+      "top1_label": "Pinsir",
+      "top1_score": 0.14039871096611023,
+      "true_score": 0.10418353974819183,
+      "top1_correct": false,
+      "top3_correct": true,
+      "top5_correct": true
+    },
+    {
+      "true_label": "Farfetch'd",
+      "top1_label": "Diglett",
+      "top1_score": 0.13932321965694427,
+      "true_score": 0.01402372121810913,
+      "top1_correct": false,
+      "top3_correct": false,
+      "top5_correct": false
+    },
+    {
+      "true_label": "Lugia",
+      "top1_label": "Squawkabilly",
+      "top1_score": 0.13903272151947021,
+      "true_score": 0.12377601116895676,
+      "top1_correct": false,
+      "top3_correct": true,
+      "top5_correct": true
+    },
+    {
+      "true_label": "Ivysaur",
+      "top1_label": "Nidoran♀",
+      "top1_score": 0.13896825909614563,
+      "true_score": 0.004240109585225582,
+      "top1_correct": false,
+      "top3_correct": false,
+      "top5_correct": false
+    },
+    {
+      "true_label": "Houndour",
+      "top1_label": "Terrakion",
+      "top1_score": 0.13728593289852142,
+      "true_score": 0.017337139695882797,
+      "top1_correct": false,
+      "top3_correct": false,
+      "top5_correct": false
+    },
+    {
+      "true_label": "Pawmot",
+      "top1_label": "Diglett",
+      "top1_score": 0.13603092730045319,
+      "true_score": 0.034006986767053604,
+      "top1_correct": false,
+      "top3_correct": true,
+      "top5_correct": true
+    },
+    {
+      "true_label": "Genesect",
+      "top1_label": "Diglett",
+      "top1_score": 0.1356993168592453,
+      "true_score": 0.09178706258535385,
+      "top1_correct": false,
+      "top3_correct": true,
+      "top5_correct": true
+    },
+    {
+      "true_label": "Type: Null",
+      "top1_label": "Arceus",
+      "top1_score": 0.13500754535198212,
+      "true_score": 0.09504856914281845,
+      "top1_correct": false,
+      "top3_correct": true,
+      "top5_correct": true
+    },
+    {
+      "true_label": "Mandibuzz",
+      "top1_label": "Diglett",
+      "top1_score": 0.13312752544879913,
+      "true_score": 0.07146935164928436,
+      "top1_correct": false,
+      "top3_correct": true,
+      "top5_correct": true
+    },
+    {
+      "true_label": "Nidorina",
+      "top1_label": "Gligar",
+      "top1_score": 0.12690243124961853,
+      "true_score": 0.0007475463789887726,
+      "top1_correct": false,
+      "top3_correct": false,
+      "top5_correct": false
+    },
+    {
+      "true_label": "Panpour",
+      "top1_label": "Sunflora",
+      "top1_score": 0.12539196014404297,
+      "true_score": 0.08928091078996658,
+      "top1_correct": false,
+      "top3_correct": false,
+      "top5_correct": true
+    },
+    {
+      "true_label": "Bagon",
+      "top1_label": "Diglett",
+      "top1_score": 0.1253594309091568,
+      "true_score": 0.00803558062762022,
+      "top1_correct": false,
+      "top3_correct": false,
+      "top5_correct": false
+    },
+    {
+      "true_label": "Marowak",
+      "top1_label": "Terrakion",
+      "top1_score": 0.1230616569519043,
+      "true_score": 0.031069966033101082,
+      "top1_correct": false,
+      "top3_correct": false,
+      "top5_correct": false
+    },
+    {
+      "true_label": "Kadabra",
+      "top1_label": "Okidogi",
+      "top1_score": 0.12199971824884415,
+      "true_score": 0.05783797428011894,
+      "top1_correct": false,
+      "top3_correct": false,
+      "top5_correct": true
+    },
+    {
+      "true_label": "Pyroar",
+      "top1_label": "Diglett",
+      "top1_score": 0.12156625092029572,
+      "true_score": 0.05695256218314171,
+      "top1_correct": false,
+      "top3_correct": true,
+      "top5_correct": true
+    },
+    {
+      "true_label": "Grookey",
+      "top1_label": "Diglett",
+      "top1_score": 0.1209818422794342,
+      "true_score": 0.008579809218645096,
+      "top1_correct": false,
+      "top3_correct": false,
+      "top5_correct": false
+    },
+    {
+      "true_label": "Wailord",
+      "top1_label": "Wailmer",
+      "top1_score": 0.12059883773326874,
+      "true_score": 0.10607466846704483,
+      "top1_correct": false,
+      "top3_correct": true,
+      "top5_correct": true
+    },
+    {
+      "true_label": "Cranidos",
+      "top1_label": "Diglett",
+      "top1_score": 0.11864174157381058,
+      "true_score": 0.0029197209514677525,
+      "top1_correct": false,
+      "top3_correct": false,
+      "top5_correct": false
+    },
+    {
+      "true_label": "Charmeleon",
+      "top1_label": "Diglett",
+      "top1_score": 0.11694055050611496,
+      "true_score": 0.04419352859258652,
+      "top1_correct": false,
+      "top3_correct": true,
+      "top5_correct": true
+    },
+    {
+      "true_label": "Dreepy",
+      "top1_label": "Diglett",
+      "top1_score": 0.11681171506643295,
+      "true_score": 0.002652254421263933,
+      "top1_correct": false,
+      "top3_correct": false,
+      "top5_correct": false
+    },
+    {
+      "true_label": "Drowzee",
+      "top1_label": "Diglett",
+      "top1_score": 0.11631831526756287,
+      "true_score": 0.006919895298779011,
+      "top1_correct": false,
+      "top3_correct": false,
+      "top5_correct": false
+    },
+    {
+      "true_label": "Floette",
+      "top1_label": "Sylveon",
+      "top1_score": 0.11603859066963196,
+      "true_score": 0.023182036355137825,
+      "top1_correct": false,
+      "top3_correct": false,
+      "top5_correct": false
+    },
+    {
+      "true_label": "Makuhita",
+      "top1_label": "Diglett",
+      "top1_score": 0.11587990820407867,
+      "true_score": 0.11179114133119583,
+      "top1_correct": false,
+      "top3_correct": true,
+      "top5_correct": true
+    },
+    {
+      "true_label": "Golett",
+      "top1_label": "Naclstack",
+      "top1_score": 0.1156780943274498,
+      "true_score": 0.11207265406847,
+      "top1_correct": false,
+      "top3_correct": true,
+      "top5_correct": true
+    },
+    {
+      "true_label": "Haunter",
+      "top1_label": "Veluza",
+      "top1_score": 0.11529058963060379,
+      "true_score": 0.0946514904499054,
+      "top1_correct": false,
+      "top3_correct": true,
+      "top5_correct": true
+    },
+    {
+      "true_label": "Spritzee",
+      "top1_label": "Jigglypuff",
+      "top1_score": 0.1149279773235321,
+      "true_score": 0.04307333752512932,
+      "top1_correct": false,
+      "top3_correct": false,
+      "top5_correct": true
+    },
+    {
+      "true_label": "Riolu",
+      "top1_label": "Diglett",
+      "top1_score": 0.11274033784866333,
+      "true_score": 0.0612763985991478,
+      "top1_correct": false,
+      "top3_correct": true,
+      "top5_correct": true
+    },
+    {
+      "true_label": "Doublade",
+      "top1_label": "Diglett",
+      "top1_score": 0.11198265105485916,
+      "true_score": 0.023933378979563713,
+      "top1_correct": false,
+      "top3_correct": false,
+      "top5_correct": true
+    },
+    {
+      "true_label": "Mew",
+      "top1_label": "Diglett",
+      "top1_score": 0.11100149899721146,
+      "true_score": 0.0910242572426796,
+      "top1_correct": false,
+      "top3_correct": true,
+      "top5_correct": true
+    },
+    {
+      "true_label": "Steelix",
+      "top1_label": "Diglett",
+      "top1_score": 0.11099979281425476,
+      "true_score": 0.07043985277414322,
+      "top1_correct": false,
+      "top3_correct": true,
+      "top5_correct": true
+    },
+    {
+      "true_label": "Cubchoo",
+      "top1_label": "Diglett",
+      "top1_score": 0.10862979292869568,
+      "true_score": 0.08934023976325989,
+      "top1_correct": false,
+      "top3_correct": true,
+      "top5_correct": true
+    },
+    {
+      "true_label": "Skwovet",
+      "top1_label": "Greedent",
+      "top1_score": 0.10246721655130386,
+      "true_score": 0.07559328526258469,
+      "top1_correct": false,
+      "top3_correct": true,
+      "top5_correct": true
+    },
+    {
+      "true_label": "Talonflame",
+      "top1_label": "Diglett",
+      "top1_score": 0.099823959171772,
+      "true_score": 0.06591419875621796,
+      "top1_correct": false,
+      "top3_correct": true,
+      "top5_correct": true
+    },
+    {
+      "true_label": "Passimian",
+      "top1_label": "Diglett",
+      "top1_score": 0.09966124594211578,
+      "true_score": 0.025564266368746758,
+      "top1_correct": false,
+      "top3_correct": false,
+      "top5_correct": true
+    },
+    {
+      "true_label": "Sawsbuck",
+      "top1_label": "Munkidori",
+      "top1_score": 0.09912469983100891,
+      "true_score": 0.04293493553996086,
+      "top1_correct": false,
+      "top3_correct": true,
+      "top5_correct": true
+    },
+    {
+      "true_label": "Electrike",
+      "top1_label": "Metang",
+      "top1_score": 0.09765523672103882,
+      "true_score": 0.011060823686420918,
+      "top1_correct": false,
+      "top3_correct": false,
+      "top5_correct": false
+    },
+    {
+      "true_label": "Shellder",
+      "top1_label": "Diglett",
+      "top1_score": 0.09392542392015457,
+      "true_score": 0.0695057138800621,
+      "top1_correct": false,
+      "top3_correct": true,
+      "top5_correct": true
+    },
+    {
+      "true_label": "Machop",
+      "top1_label": "Munkidori",
+      "top1_score": 0.09338296949863434,
+      "true_score": 0.031099926680326462,
+      "top1_correct": false,
+      "top3_correct": false,
+      "top5_correct": true
+    },
+    {
+      "true_label": "Crocalor",
+      "top1_label": "Diglett",
+      "top1_score": 0.09209882467985153,
+      "true_score": 0.05184221640229225,
+      "top1_correct": false,
+      "top3_correct": false,
+      "top5_correct": true
+    },
+    {
+      "true_label": "Treecko",
+      "top1_label": "Shellos",
+      "top1_score": 0.08999819308519363,
+      "true_score": 0.06089919060468674,
+      "top1_correct": false,
+      "top3_correct": true,
+      "top5_correct": true
+    },
+    {
+      "true_label": "Floatzel",
+      "top1_label": "Diglett",
+      "top1_score": 0.0889514610171318,
+      "true_score": 0.08872592449188232,
+      "top1_correct": false,
+      "top3_correct": true,
+      "top5_correct": true
+    },
+    {
+      "true_label": "Pinsir",
+      "top1_label": "Wartortle",
+      "top1_score": 0.08470811694860458,
+      "true_score": 0.034779030829668045,
+      "top1_correct": false,
+      "top3_correct": false,
+      "top5_correct": false
+    },
+    {
+      "true_label": "Rufflet",
+      "top1_label": "Furfrou",
+      "top1_score": 0.08417549729347229,
+      "true_score": 0.06067873537540436,
+      "top1_correct": false,
+      "top3_correct": true,
+      "top5_correct": true
+    },
+    {
+      "true_label": "Venipede",
+      "top1_label": "Diglett",
+      "top1_score": 0.0831398069858551,
+      "true_score": 0.019241241738200188,
+      "top1_correct": false,
+      "top3_correct": false,
+      "top5_correct": true
+    },
+    {
+      "true_label": "Whimsicott",
+      "top1_label": "Skiploom",
+      "top1_score": 0.08005133271217346,
+      "true_score": 0.04682771489024162,
+      "top1_correct": false,
+      "top3_correct": true,
+      "top5_correct": true
+    },
+    {
+      "true_label": "Slaking",
+      "top1_label": "Snom",
+      "top1_score": 0.07985814660787582,
+      "true_score": 0.03217321261763573,
+      "top1_correct": false,
+      "top3_correct": false,
+      "top5_correct": false
+    },
+    {
+      "true_label": "Zweilous",
+      "top1_label": "Diglett",
+      "top1_score": 0.07913022488355637,
+      "true_score": 0.046826671808958054,
+      "top1_correct": false,
+      "top3_correct": false,
+      "top5_correct": true
+    },
+    {
+      "true_label": "Bergmite",
+      "top1_label": "Diglett",
+      "top1_score": 0.07877831161022186,
+      "true_score": 0.02354496903717518,
+      "top1_correct": false,
+      "top3_correct": false,
+      "top5_correct": false
+    },
+    {
+      "true_label": "Rapidash",
+      "top1_label": "Diglett",
+      "top1_score": 0.07592068612575531,
+      "true_score": 0.043037049472332,
+      "top1_correct": false,
+      "top3_correct": true,
+      "top5_correct": true
+    },
+    {
+      "true_label": "Tangela",
+      "top1_label": "Golem",
+      "top1_score": 0.07575730979442596,
+      "true_score": 0.01702163740992546,
+      "top1_correct": false,
+      "top3_correct": false,
+      "top5_correct": false
+    },
+    {
+      "true_label": "Moltres",
+      "top1_label": "Diglett",
+      "top1_score": 0.07565774768590927,
+      "true_score": 0.01670774631202221,
+      "top1_correct": false,
+      "top3_correct": false,
+      "top5_correct": false
+    },
+    {
+      "true_label": "Houndstone",
+      "top1_label": "Greavard",
+      "top1_score": 0.0752907544374466,
+      "true_score": 0.05237607657909393,
+      "top1_correct": false,
+      "top3_correct": false,
+      "top5_correct": false
+    },
+    {
+      "true_label": "Palafin",
+      "top1_label": "Diglett",
+      "top1_score": 0.07456953823566437,
+      "true_score": 0.006876553408801556,
+      "top1_correct": false,
+      "top3_correct": false,
+      "top5_correct": false
+    },
+    {
+      "true_label": "Luvdisc",
+      "top1_label": "Metapod",
+      "top1_score": 0.07451792806386948,
+      "true_score": 0.06216664984822273,
+      "top1_correct": false,
+      "top3_correct": true,
+      "top5_correct": true
+    },
+    {
+      "true_label": "Honchkrow",
+      "top1_label": "Diglett",
+      "top1_score": 0.07436279207468033,
+      "true_score": 0.011784497648477554,
+      "top1_correct": false,
+      "top3_correct": false,
+      "top5_correct": false
+    },
+    {
+      "true_label": "Finizen",
+      "top1_label": "Diglett",
+      "top1_score": 0.06877969950437546,
+      "true_score": 0.005676750559359789,
+      "top1_correct": false,
+      "top3_correct": false,
+      "top5_correct": false
+    },
+    {
+      "true_label": "Gastly",
+      "top1_label": "Diglett",
+      "top1_score": 0.06848639994859695,
+      "true_score": 0.05912460759282112,
+      "top1_correct": false,
+      "top3_correct": true,
+      "top5_correct": true
+    },
+    {
+      "true_label": "Sirfetch'd",
+      "top1_label": "Diglett",
+      "top1_score": 0.06756839901208878,
+      "true_score": 0.02562050148844719,
+      "top1_correct": false,
+      "top3_correct": true,
+      "top5_correct": true
+    },
+    {
+      "true_label": "Psyduck",
+      "top1_label": "Regirock",
+      "top1_score": 0.0672837570309639,
+      "true_score": 0.013724321499466896,
+      "top1_correct": false,
+      "top3_correct": false,
+      "top5_correct": false
+    },
+    {
+      "true_label": "Vulpix",
+      "top1_label": "Diglett",
+      "top1_score": 0.06570619344711304,
+      "true_score": 0.028638575226068497,
+      "top1_correct": false,
+      "top3_correct": false,
+      "top5_correct": false
+    }
+  ],
+  "low_confidence_correct": [
+    {
+      "true_label": "Pupitar",
+      "top1_label": "Pupitar",
+      "top1_score": 0.06918992102146149,
+      "true_score": 0.06918992102146149,
+      "top1_correct": true,
+      "top3_correct": true,
+      "top5_correct": true
+    },
+    {
+      "true_label": "Buizel",
+      "top1_label": "Buizel",
+      "top1_score": 0.07589718699455261,
+      "true_score": 0.07589718699455261,
+      "top1_correct": true,
+      "top3_correct": true,
+      "top5_correct": true
+    },
+    {
+      "true_label": "Sunkern",
+      "top1_label": "Sunkern",
+      "top1_score": 0.08281102776527405,
+      "true_score": 0.08281102776527405,
+      "top1_correct": true,
+      "top3_correct": true,
+      "top5_correct": true
+    },
+    {
+      "true_label": "Flutter Mane",
+      "top1_label": "Flutter Mane",
+      "top1_score": 0.0861341580748558,
+      "true_score": 0.0861341580748558,
+      "top1_correct": true,
+      "top3_correct": true,
+      "top5_correct": true
+    },
+    {
+      "true_label": "Hatenna",
+      "top1_label": "Hatenna",
+      "top1_score": 0.08659429103136063,
+      "true_score": 0.08659429103136063,
+      "top1_correct": true,
+      "top3_correct": true,
+      "top5_correct": true
+    },
+    {
+      "true_label": "Politoed",
+      "top1_label": "Politoed",
+      "top1_score": 0.08771543949842453,
+      "true_score": 0.08771543949842453,
+      "top1_correct": true,
+      "top3_correct": true,
+      "top5_correct": true
+    },
+    {
+      "true_label": "Duosion",
+      "top1_label": "Duosion",
+      "top1_score": 0.10221057385206223,
+      "true_score": 0.10221057385206223,
+      "top1_correct": true,
+      "top3_correct": true,
+      "top5_correct": true
+    },
+    {
+      "true_label": "Pikipek",
+      "top1_label": "Pikipek",
+      "top1_score": 0.10288140922784805,
+      "true_score": 0.10288140922784805,
+      "top1_correct": true,
+      "top3_correct": true,
+      "top5_correct": true
+    },
+    {
+      "true_label": "Lycanroc",
+      "top1_label": "Lycanroc",
+      "top1_score": 0.1057291254401207,
+      "true_score": 0.1057291254401207,
+      "top1_correct": true,
+      "top3_correct": true,
+      "top5_correct": true
+    },
+    {
+      "true_label": "Toxicroak",
+      "top1_label": "Toxicroak",
+      "top1_score": 0.1070665568113327,
+      "true_score": 0.1070665568113327,
+      "top1_correct": true,
+      "top3_correct": true,
+      "top5_correct": true
+    },
+    {
+      "true_label": "Dewott",
+      "top1_label": "Dewott",
+      "top1_score": 0.1080775111913681,
+      "true_score": 0.1080775111913681,
+      "top1_correct": true,
+      "top3_correct": true,
+      "top5_correct": true
+    },
+    {
+      "true_label": "Yamper",
+      "top1_label": "Yamper",
+      "top1_score": 0.10838369280099869,
+      "true_score": 0.10838369280099869,
+      "top1_correct": true,
+      "top3_correct": true,
+      "top5_correct": true
+    },
+    {
+      "true_label": "Solrock",
+      "top1_label": "Solrock",
+      "top1_score": 0.11221325397491455,
+      "true_score": 0.11221325397491455,
+      "top1_correct": true,
+      "top3_correct": true,
+      "top5_correct": true
+    },
+    {
+      "true_label": "Mr. Mime",
+      "top1_label": "Mr. Mime",
+      "top1_score": 0.11538685858249664,
+      "true_score": 0.11538685858249664,
+      "top1_correct": true,
+      "top3_correct": true,
+      "top5_correct": true
+    },
+    {
+      "true_label": "Quaxly",
+      "top1_label": "Quaxly",
+      "top1_score": 0.11602264642715454,
+      "true_score": 0.11602264642715454,
+      "top1_correct": true,
+      "top3_correct": true,
+      "top5_correct": true
+    },
+    {
+      "true_label": "Hitmonchan",
+      "top1_label": "Hitmonchan",
+      "top1_score": 0.11781030148267746,
+      "true_score": 0.11781030148267746,
+      "top1_correct": true,
+      "top3_correct": true,
+      "top5_correct": true
+    },
+    {
+      "true_label": "Timburr",
+      "top1_label": "Timburr",
+      "top1_score": 0.11895646154880524,
+      "true_score": 0.11895646154880524,
+      "top1_correct": true,
+      "top3_correct": true,
+      "top5_correct": true
+    },
+    {
+      "true_label": "Frigibax",
+      "top1_label": "Frigibax",
+      "top1_score": 0.12049218267202377,
+      "true_score": 0.12049218267202377,
+      "top1_correct": true,
+      "top3_correct": true,
+      "top5_correct": true
+    },
+    {
+      "true_label": "Flittle",
+      "top1_label": "Flittle",
+      "top1_score": 0.12178725749254227,
+      "true_score": 0.12178725749254227,
+      "top1_correct": true,
+      "top3_correct": true,
+      "top5_correct": true
+    },
+    {
+      "true_label": "Espeon",
+      "top1_label": "Espeon",
+      "top1_score": 0.12364038079977036,
+      "true_score": 0.12364038079977036,
+      "top1_correct": true,
+      "top3_correct": true,
+      "top5_correct": true
+    },
+    {
+      "true_label": "Shieldon",
+      "top1_label": "Shieldon",
+      "top1_score": 0.12419689446687698,
+      "true_score": 0.12419689446687698,
+      "top1_correct": true,
+      "top3_correct": true,
+      "top5_correct": true
+    },
+    {
+      "true_label": "Mr. Rime",
+      "top1_label": "Mr. Rime",
+      "top1_score": 0.1256110966205597,
+      "true_score": 0.1256110966205597,
+      "top1_correct": true,
+      "top3_correct": true,
+      "top5_correct": true
+    },
+    {
+      "true_label": "Drifloon",
+      "top1_label": "Drifloon",
+      "top1_score": 0.1278381049633026,
+      "true_score": 0.1278381049633026,
+      "top1_correct": true,
+      "top3_correct": true,
+      "top5_correct": true
+    },
+    {
+      "true_label": "Totodile",
+      "top1_label": "Totodile",
+      "top1_score": 0.13298970460891724,
+      "true_score": 0.13298970460891724,
+      "top1_correct": true,
+      "top3_correct": true,
+      "top5_correct": true
+    },
+    {
+      "true_label": "Croconaw",
+      "top1_label": "Croconaw",
+      "top1_score": 0.13594484329223633,
+      "true_score": 0.13594484329223633,
+      "top1_correct": true,
+      "top3_correct": true,
+      "top5_correct": true
+    }
+  ],
+  "error_attractors": [
+    {
+      "label": "Diglett",
+      "count": 45
+    },
+    {
+      "label": "Metang",
+      "count": 3
+    },
+    {
+      "label": "Groudon",
+      "count": 2
+    },
+    {
+      "label": "Starmie",
+      "count": 2
+    },
+    {
+      "label": "Sunflora",
+      "count": 2
+    },
+    {
+      "label": "Squawkabilly",
+      "count": 2
+    },
+    {
+      "label": "Terrakion",
+      "count": 2
+    },
+    {
+      "label": "Munkidori",
+      "count": 2
+    },
+    {
+      "label": "Kingler",
+      "count": 1
+    },
+    {
+      "label": "Anorith",
+      "count": 1
+    },
+    {
+      "label": "Gengar",
+      "count": 1
+    },
+    {
+      "label": "Skorupi",
+      "count": 1
+    },
+    {
+      "label": "Minior",
+      "count": 1
+    },
+    {
+      "label": "Venipede",
+      "count": 1
+    },
+    {
+      "label": "Glaceon",
+      "count": 1
+    },
+    {
+      "label": "Cinderace",
+      "count": 1
+    },
+    {
+      "label": "Steelix",
+      "count": 1
+    },
+    {
+      "label": "Exeggcute",
+      "count": 1
+    },
+    {
+      "label": "Uxie",
+      "count": 1
+    },
+    {
+      "label": "Shaymin",
+      "count": 1
+    },
+    {
+      "label": "Exploud",
+      "count": 1
+    },
+    {
+      "label": "Scovillain",
+      "count": 1
+    },
+    {
+      "label": "Elekid",
+      "count": 1
+    },
+    {
+      "label": "Dracozolt",
+      "count": 1
+    },
+    {
+      "label": "Meloetta",
+      "count": 1
+    },
+    {
+      "label": "Wobbuffet",
+      "count": 1
+    },
+    {
+      "label": "Lokix",
+      "count": 1
+    },
+    {
+      "label": "Kyogre",
+      "count": 1
+    },
+    {
+      "label": "Pinsir",
+      "count": 1
+    },
+    {
+      "label": "Nidoran♀",
+      "count": 1
+    },
+    {
+      "label": "Arceus",
+      "count": 1
+    },
+    {
+      "label": "Gligar",
+      "count": 1
+    },
+    {
+      "label": "Okidogi",
+      "count": 1
+    },
+    {
+      "label": "Wailmer",
+      "count": 1
+    },
+    {
+      "label": "Sylveon",
+      "count": 1
+    },
+    {
+      "label": "Naclstack",
+      "count": 1
+    },
+    {
+      "label": "Veluza",
+      "count": 1
+    },
+    {
+      "label": "Jigglypuff",
+      "count": 1
+    },
+    {
+      "label": "Greedent",
+      "count": 1
+    },
+    {
+      "label": "Shellos",
+      "count": 1
+    },
+    {
+      "label": "Wartortle",
+      "count": 1
+    },
+    {
+      "label": "Furfrou",
+      "count": 1
+    },
+    {
+      "label": "Skiploom",
+      "count": 1
+    },
+    {
+      "label": "Snom",
+      "count": 1
+    },
+    {
+      "label": "Golem",
+      "count": 1
+    },
+    {
+      "label": "Greavard",
+      "count": 1
+    },
+    {
+      "label": "Metapod",
+      "count": 1
+    },
+    {
+      "label": "Regirock",
+      "count": 1
+    }
+  ]
+}

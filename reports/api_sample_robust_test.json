@@ -1,0 +1,37 @@
+{
+  "status_code": 200,
+  "model_info": {
+    "architecture": "resnet18",
+    "num_classes": 1025,
+    "weights": "models/species_resnet18_robust_best.pt",
+    "device": "cpu",
+    "preprocessing": "Resize(256), CenterCrop(224), ImageNet normalization"
+  },
+  "response": {
+    "label": "Diglett",
+    "score": 0.17789848148822784,
+    "unknown": false,
+    "top_k": [
+      {
+        "label": "Diglett",
+        "score": 0.17789848148822784
+      },
+      {
+        "label": "Bidoof",
+        "score": 0.15287035703659058
+      },
+      {
+        "label": "Exploud",
+        "score": 0.07483062148094177
+      },
+      {
+        "label": "Pichu",
+        "score": 0.029948364943265915
+      },
+      {
+        "label": "Plusle",
+        "score": 0.027479073032736778
+      }
+    ]
+  }
+}

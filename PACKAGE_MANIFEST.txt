@@ -1,0 +1,16 @@
+PokeAI final package contents
+
+Included:
+- Fine-tuned 1,025-species checkpoint: models/species_resnet18_robust_best.pt
+- API: api.py and inference.py
+- API tests: test_api.py
+- Training/evaluation scripts and reports
+- Source dataset and prepared dataset for reproducibility
+- Final installation and usage guide: FINAL_RUN_GUIDE.md
+
+Excluded to keep the package usable and portable:
+- ai_env/ bundled virtual environment
+- Python __pycache__ and .pyc files
+- Temporary logs and local development caches
+
+The package does not claim completed Windows desktop detection, live game-screen validation, or dashboard integration.

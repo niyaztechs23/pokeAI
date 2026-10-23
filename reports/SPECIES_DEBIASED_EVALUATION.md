@@ -1,0 +1,94 @@
+# 1,025-Species Candidate Evaluation
+The candidate was evaluated on the reserved `official.png` image for each of the 1,025 catalogue entries. Training used the other five source images per class. This is a clean domain holdout for the supplied raw dataset, but it is not an independent real-game benchmark.
+
+- Top-1: **83.2195%** (853/1025)
+- Top-3: **94.8293%** (972/1025)
+- Top-5: **96.8780%** (993/1025)
+- Evaluation elapsed: **36.87s** on CPU.
+
+## Highest-confidence errors
+- **Staryu** → `Starmie` at 0.6875; true score 0.2143.
+- **Carkol** → `Diglett` at 0.6475; true score 0.0548.
+- **Tauros** → `Bouffalant` at 0.6421; true score 0.1843.
+- **Scorbunny** → `Cinderace` at 0.5718; true score 0.1209.
+- **Infernape** → `Diglett` at 0.5275; true score 0.1810.
+- **Loudred** → `Diglett` at 0.5005; true score 0.0311.
+- **Paras** → `Diglett` at 0.4966; true score 0.0661.
+- **Venonat** → `Diglett` at 0.4909; true score 0.3500.
+- **Cubone** → `Diglett` at 0.4789; true score 0.0502.
+- **Carbink** → `Diglett` at 0.4758; true score 0.0107.
+- **Tornadus** → `Revavroom` at 0.4705; true score 0.1607.
+- **Slurpuff** → `Diglett` at 0.4464; true score 0.0049.
+- **Glastrier** → `Diglett` at 0.4409; true score 0.1938.
+- **Rhyhorn** → `Diglett` at 0.4394; true score 0.0388.
+- **Crawdaunt** → `Diglett` at 0.4372; true score 0.1782.
+- **Mew** → `Diglett` at 0.4360; true score 0.0729.
+- **Keldeo** → `Diglett` at 0.4358; true score 0.0423.
+- **Gurdurr** → `Diglett` at 0.4286; true score 0.2422.
+- **Spearow** → `Diglett` at 0.4267; true score 0.0076.
+- **Shieldon** → `Diglett` at 0.4262; true score 0.1190.
+- **Bibarel** → `Diglett` at 0.4250; true score 0.1673.
+- **Panpour** → `Diglett` at 0.4237; true score 0.0066.
+- **Delibird** → `Diglett` at 0.4207; true score 0.2647.
+- **Darumaka** → `Diglett` at 0.4130; true score 0.3470.
+- **Miltank** → `Diglett` at 0.4107; true score 0.0028.
+- **Unown** → `Diglett` at 0.4073; true score 0.0623.
+- **Yanma** → `Diglett` at 0.4030; true score 0.0737.
+- **Beldum** → `Metang` at 0.3983; true score 0.0187.
+- **Mudkip** → `Diglett` at 0.3964; true score 0.0338.
+- **Palpitoad** → `Diglett` at 0.3936; true score 0.0409.
+- **Hawlucha** → `Diglett` at 0.3930; true score 0.0527.
+- **Rolycoly** → `Diglett` at 0.3834; true score 0.0697.
+- **Dragalge** → `Diglett` at 0.3811; true score 0.0360.
+- **Doublade** → `Diglett` at 0.3800; true score 0.0150.
+- **Rotom** → `Diglett` at 0.3791; true score 0.2147.
+- **Farfetch'd** → `Diglett` at 0.3717; true score 0.0146.
+- **Dragapult** → `Diglett` at 0.3658; true score 0.1858.
+- **Magmortar** → `Hoopa` at 0.3627; true score 0.2003.
+- **Ambipom** → `Aipom` at 0.3524; true score 0.1608.
+- **Mandibuzz** → `Diglett` at 0.3524; true score 0.0908.
+
+## Repeated error attractors
+- `Diglett` received 156 incorrect top-1 predictions.
+- `Metang` received 2 incorrect top-1 predictions.
+- `Starmie` received 1 incorrect top-1 predictions.
+- `Bouffalant` received 1 incorrect top-1 predictions.
+- `Cinderace` received 1 incorrect top-1 predictions.
+- `Revavroom` received 1 incorrect top-1 predictions.
+- `Hoopa` received 1 incorrect top-1 predictions.
+- `Aipom` received 1 incorrect top-1 predictions.
+- `Skorupi` received 1 incorrect top-1 predictions.
+- `Wailmer` received 1 incorrect top-1 predictions.
+- `Sylveon` received 1 incorrect top-1 predictions.
+- `Kyogre` received 1 incorrect top-1 predictions.
+- `Gligar` received 1 incorrect top-1 predictions.
+- `Kingler` received 1 incorrect top-1 predictions.
+- `Furfrou` received 1 incorrect top-1 predictions.
+- `Veluza` received 1 incorrect top-1 predictions.
+
+## Lowest-confidence correct classes
+- **Lumineon** correct at 0.1187.
+- **Whimsicott** correct at 0.1309.
+- **Kyogre** correct at 0.1336.
+- **Trubbish** correct at 0.1591.
+- **Gulpin** correct at 0.1618.
+- **Cleffa** correct at 0.1783.
+- **Machamp** correct at 0.1875.
+- **Ditto** correct at 0.1885.
+- **Dewott** correct at 0.1897.
+- **Totodile** correct at 0.1912.
+- **Spritzee** correct at 0.1939.
+- **Scatterbug** correct at 0.2107.
+- **Terapagos** correct at 0.2123.
+- **Remoraid** correct at 0.2191.
+- **Masquerain** correct at 0.2200.
+- **Kabuto** correct at 0.2208.
+- **Grubbin** correct at 0.2225.
+- **Smoliv** correct at 0.2237.
+- **Jigglypuff** correct at 0.2269.
+- **Gastly** correct at 0.2274.
+- **Dewgong** correct at 0.2292.
+- **Deino** correct at 0.2299.
+- **Gothorita** correct at 0.2335.
+- **Corviknight** correct at 0.2350.
+- **Feebas** correct at 0.2431.

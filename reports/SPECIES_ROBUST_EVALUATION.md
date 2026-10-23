@@ -1,0 +1,98 @@
+# 1,025-Species Candidate Evaluation
+The candidate was evaluated on the reserved `official.png` image for each of the 1,025 catalogue entries. Training used the other five source images per class. This is a clean domain holdout for the supplied raw dataset, but it is not an independent real-game benchmark.
+
+- Top-1: **90.2439%** (925/1025)
+- Top-3: **94.7317%** (971/1025)
+- Top-5: **96.1951%** (986/1025)
+- Evaluation elapsed: **35.13s** on CPU.
+
+## Highest-confidence errors
+- **Dachsbun** → `Groudon` at 0.6982; true score 0.0701.
+- **Staryu** → `Starmie` at 0.4009; true score 0.3109.
+- **Krabby** → `Kingler` at 0.3948; true score 0.0047.
+- **Hydreigon** → `Anorith` at 0.3858; true score 0.0579.
+- **Qwilfish** → `Gengar` at 0.3670; true score 0.3526.
+- **Drampa** → `Skorupi` at 0.3584; true score 0.1789.
+- **Rolycoly** → `Minior` at 0.3401; true score 0.0188.
+- **Gossifleur** → `Sunflora` at 0.3142; true score 0.1948.
+- **Pincurchin** → `Venipede` at 0.2931; true score 0.0128.
+- **Bibarel** → `Diglett` at 0.2892; true score 0.0576.
+- **Tinkatuff** → `Groudon` at 0.2888; true score 0.0496.
+- **Drizzile** → `Glaceon` at 0.2887; true score 0.0029.
+- **Scorbunny** → `Cinderace` at 0.2583; true score 0.0898.
+- **Pineco** → `Starmie` at 0.2555; true score 0.0073.
+- **Combusken** → `Squawkabilly` at 0.2498; true score 0.0211.
+- **Relicanth** → `Steelix` at 0.2422; true score 0.2348.
+- **Numel** → `Exeggcute` at 0.2419; true score 0.0728.
+- **Beldum** → `Metang` at 0.2327; true score 0.0129.
+- **Torchic** → `Uxie` at 0.2315; true score 0.0052.
+- **Dondozo** → `Metang` at 0.2270; true score 0.0713.
+- **Grotle** → `Shaymin` at 0.2205; true score 0.0592.
+- **Carkol** → `Diglett` at 0.2162; true score 0.0090.
+- **Cubone** → `Diglett` at 0.2029; true score 0.0131.
+- **Infernape** → `Diglett` at 0.2012; true score 0.1971.
+- **Carbink** → `Diglett` at 0.2011; true score 0.0194.
+- **Rhyhorn** → `Exploud` at 0.1941; true score 0.0442.
+- **Rillaboom** → `Scovillain` at 0.1858; true score 0.1764.
+- **Mudkip** → `Elekid` at 0.1738; true score 0.1612.
+- **Keldeo** → `Diglett` at 0.1722; true score 0.0410.
+- **Dragalge** → `Dracozolt` at 0.1667; true score 0.0195.
+- **Miltank** → `Diglett` at 0.1630; true score 0.0042.
+- **Rockruff** → `Meloetta` at 0.1623; true score 0.0038.
+- **Quagsire** → `Wobbuffet` at 0.1615; true score 0.0404.
+- **Drilbur** → `Diglett` at 0.1594; true score 0.0090.
+- **Obstagoon** → `Lokix` at 0.1554; true score 0.0855.
+- **Paras** → `Diglett` at 0.1552; true score 0.1416.
+- **Krokorok** → `Diglett` at 0.1526; true score 0.0032.
+- **Naganadel** → `Kyogre` at 0.1510; true score 0.1252.
+- **Yanma** → `Diglett` at 0.1479; true score 0.1232.
+- **Slurpuff** → `Diglett` at 0.1459; true score 0.0066.
+
+## Repeated error attractors
+- `Diglett` received 45 incorrect top-1 predictions.
+- `Metang` received 3 incorrect top-1 predictions.
+- `Groudon` received 2 incorrect top-1 predictions.
+- `Starmie` received 2 incorrect top-1 predictions.
+- `Sunflora` received 2 incorrect top-1 predictions.
+- `Squawkabilly` received 2 incorrect top-1 predictions.
+- `Terrakion` received 2 incorrect top-1 predictions.
+- `Munkidori` received 2 incorrect top-1 predictions.
+- `Kingler` received 1 incorrect top-1 predictions.
+- `Anorith` received 1 incorrect top-1 predictions.
+- `Gengar` received 1 incorrect top-1 predictions.
+- `Skorupi` received 1 incorrect top-1 predictions.
+- `Minior` received 1 incorrect top-1 predictions.
+- `Venipede` received 1 incorrect top-1 predictions.
+- `Glaceon` received 1 incorrect top-1 predictions.
+- `Cinderace` received 1 incorrect top-1 predictions.
+- `Steelix` received 1 incorrect top-1 predictions.
+- `Exeggcute` received 1 incorrect top-1 predictions.
+- `Uxie` received 1 incorrect top-1 predictions.
+- `Shaymin` received 1 incorrect top-1 predictions.
+
+## Lowest-confidence correct classes
+- **Pupitar** correct at 0.0692.
+- **Buizel** correct at 0.0759.
+- **Sunkern** correct at 0.0828.
+- **Flutter Mane** correct at 0.0861.
+- **Hatenna** correct at 0.0866.
+- **Politoed** correct at 0.0877.
+- **Duosion** correct at 0.1022.
+- **Pikipek** correct at 0.1029.
+- **Lycanroc** correct at 0.1057.
+- **Toxicroak** correct at 0.1071.
+- **Dewott** correct at 0.1081.
+- **Yamper** correct at 0.1084.
+- **Solrock** correct at 0.1122.
+- **Mr. Mime** correct at 0.1154.
+- **Quaxly** correct at 0.1160.
+- **Hitmonchan** correct at 0.1178.
+- **Timburr** correct at 0.1190.
+- **Frigibax** correct at 0.1205.
+- **Flittle** correct at 0.1218.
+- **Espeon** correct at 0.1236.
+- **Shieldon** correct at 0.1242.
+- **Mr. Rime** correct at 0.1256.
+- **Drifloon** correct at 0.1278.
+- **Totodile** correct at 0.1330.
+- **Croconaw** correct at 0.1359.

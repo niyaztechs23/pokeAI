@@ -1,0 +1,30 @@
+{
+  "status_code": 200,
+  "response": {
+    "label": "Diglett",
+    "score": 0.3711136281490326,
+    "unknown": false,
+    "top_k": [
+      {
+        "label": "Diglett",
+        "score": 0.3711136281490326
+      },
+      {
+        "label": "Exploud",
+        "score": 0.13430209457874298
+      },
+      {
+        "label": "Bidoof",
+        "score": 0.06460554152727127
+      },
+      {
+        "label": "Pikachu",
+        "score": 0.043594855815172195
+      },
+      {
+        "label": "Octillery",
+        "score": 0.02477472834289074
+      }
+    ]
+  }
+}

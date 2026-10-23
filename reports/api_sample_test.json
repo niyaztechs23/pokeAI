@@ -1,0 +1,22 @@
+{
+  "status_code": 200,
+  "response": {
+    "label": "Tepig",
+    "score": 0.30154821276664734,
+    "unknown": false,
+    "top_k": [
+      {
+        "label": "Tepig",
+        "score": 0.30154821276664734
+      },
+      {
+        "label": "Charmander",
+        "score": 0.2440042346715927
+      },
+      {
+        "label": "Bidoof",
+        "score": 0.16314007341861725
+      }
+    ]
+  }
+}

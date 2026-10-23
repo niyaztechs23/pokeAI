@@ -1,0 +1,14 @@
+ai_env/
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.log
+*.zip
+.DS_Store
+.env
+.env.*
+*.pem
+*.key
+credentials.json
+secrets.json
